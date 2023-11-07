@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-fundo: #FCF5ED;
+    --cor-texto: black;
+    --cor-destaque: #1F1717;
+    --cor-negrito: #CE5A67;
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    margin: 2% 0 1% 0%;
+    padding: 2%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3.2rem;
+    background-image: linear-gradient(to right, var(--cor-negrito) 30%, var(--cor-fundo) 30%, var(--cor-fundo) 100%);
+}
+
+.comeco {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.corpo__perfil__img {
+    
+    width: 35%;
+    padding: 2% 40% 2% 2%;
+}
+
+.corpo__perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    color: var(--cor-destaque);
+}
+
+.corpo__perfil_comeco {
+    width: 46.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.corpo__perfil__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-principal);
+    display: flex;
+}
+
+.corpo__perfil__meu {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+
+.corpo__perfil__meu__contato {
+    width: 17.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2%;
+    text-decoration: none;
+    color:var(--cor-destaque);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.corpo__perfil__meu__contato_email {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.corpo__perfil__meu__contato_celular {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.corpo__perfil__meu__contato_endereco {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.qualificacoes {
+    width: 81.25rem;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10.625rem;
+}
+
+.qualificacoes__conhecimento {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.qualificacoes__conhecimento__tituto {
+    width: 17.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2%;
+    text-decoration: none;
+    color:var(--cor-destaque);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.qualificacoes__conhecimento__tituto_img {
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+.qualificacoes__conhecimento__itens {
+    width: 17.5rem;
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2%;
+    text-decoration: none;
+    color:var(--cor-destaque);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.qualificacoes__conhecimento__competencias {
+    font-size: 1.5rem;
+    font-family: var(--fonte-principal);
+}
+
+.qualificacoes__conhecimento__cinco_pontos {
+    width: 18.75rem;
+    height: 1.25rem;
+    border: #1F1717;
+    background-color: #FCF5ED;
+}
+
+.qualificacoes__conhecimento__quatro_pontos {
+    width: 15rem;
+    height: 1.25rem;
+    border: #1F1717;
+    background-color: #FCF5ED;
+}
+
+.qualificacoes__conhecimento__tres_pontos {
+    width: 11.25rem;
+    height: 1.25rem;
+    border: #1F1717;
+    background-color: #FCF5ED;
+}
+
+.qualificacoes__experiencias {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    color: var(--cor-destaque);
+}
+
+.linha {
+    background-color: black;
+}
