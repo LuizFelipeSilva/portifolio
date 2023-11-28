@@ -137,7 +137,6 @@ body {
 .intro__lista {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     padding: 1em;
     gap: 2em;
