@@ -59,6 +59,7 @@
     font-size: 2.25rem;
     font-family: var(--fonte-principal);
     display: flex;
+    white-space: nowrap;
 }
 
 .corpo__perfil__meu {
@@ -70,8 +71,6 @@
 }
 
 .corpo__perfil__meu__contato {
-    width: 17.5rem;
-    text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 2%;
@@ -79,9 +78,8 @@
     color:var(--cor-destaque);
     font-family: var(--fonte-secundaria);
     display: flex;
-    justify-content: space-between;
     gap: 1rem;
-    
+    white-space: nowrap;
 }
 
 .corpo__perfil__meu__contato_email {
@@ -136,7 +134,6 @@
 
 .qualificacoes__conhecimento__itens {
     width: 17.5rem;
-    
     font-size: 1.5rem;
     font-weight: 600;
     padding: 2%;
@@ -184,4 +181,75 @@
 
 .linha {
     background-color: black;
+}
+
+@media (max-width: 480px) {
+    .corpo {
+        background-image: none;
+        padding: 0.5em;
+        gap: 0.5em;
+        
+    }
+
+    /* INFORMAÇÕES */
+    .comeco {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .corpo__perfil__img {
+        width: 50%;
+        padding: 0.5em 6em;
+    }
+
+    .corpo__perfil_comeco {
+        display: flex;
+        width: 100%;
+    }
+
+    .corpo__perfil__titulo {
+        font-size: 26px;
+        display: flex; 
+        align-items: center;
+        white-space: normal;
+    }
+
+    .corpo__perfil__meu {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .corpo__perfil__meu__contato {
+        white-space: normal;
+    }
+
+    .corpo__perfil__meu__contato_endereco {
+        font-size: 12px;
+        white-space: normal;
+    }
+
+    /* QUALIFICAÇÕES */
+    .qualificacoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0.5em;
+        gap: 0.5em;
+    }
+
+    .qualificacoes__conhecimento__cinco_pontos {
+       background-color: var(--cor-negrito);
+    }
+
+    .qualificacoes__conhecimento__quatro_pontos {
+        background-color: var(--cor-negrito);
+    }
+
+    .qualificacoes__conhecimento__tres_pontos {
+        background-color: var(--cor-negrito);
+    }
 }
