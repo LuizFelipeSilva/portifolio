@@ -43,6 +43,10 @@ body {
     text-decoration: none;
 }
 
+.cabecalho__menu__link:hover {
+    color: var(--cor-negrito);
+}
+
 .intro {
     padding: 8% 5%;
     display: flex;
