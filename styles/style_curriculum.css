@@ -204,6 +204,7 @@
     .corpo__perfil__img {
         width: 50%;
         padding: 0.5em 6em;
+        object-fit: cover;
     }
 
     .corpo__perfil_comeco {

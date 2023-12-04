@@ -81,6 +81,7 @@ body {
 
 .intro__imagem {
     width: 40%;
+    object-fit: contain;
 }
 
 .intro__links {
@@ -122,6 +123,7 @@ body {
     justify-content: center;
     gap: 1rem;
     flex-grow: 1;
+    object-fit: contain;
 }
 
 .intro__links__link:hover {
@@ -140,6 +142,7 @@ body {
 
 .img__formatura{
     width: 35%;
+    object-fit: cover;
 }
 
 .intro__lista {
