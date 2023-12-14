@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 3.2rem;
+    width: max-content;
     background-image: linear-gradient(to right, var(--cor-negrito) 25%, var(--cor-fundo) 25%, var(--cor-fundo) 100%);
 }
 
@@ -109,13 +110,14 @@
 .qualificacoes__conhecimento {
     display: flex;
     flex-direction: column;
+    width: min-content;
     gap: 1.25rem;
 }
 
 .qualificacoes__conhecimento__tituto {
-    width: 17.5rem;
+    width: max-content;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 2%;
     text-decoration: none;
